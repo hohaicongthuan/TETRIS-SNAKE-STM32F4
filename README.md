@@ -24,6 +24,8 @@ This is a small group project that I had in the *Embedded System Design* class. 
 
 * First, you need to copy all the directories in this repository to your project's root folder (I used STM32CubeIDE 1.3.0, but you can use whatever IDE you prefer).
 
+* You might want to configure your IDE to include the ```Drivers/BSP``` directory.
+
 * Then plug the board in, press *Launch* and let the IDE do its jobs.
 
 > ***Note: Use the USER button (the blue one on the board) to switch between two games.***
