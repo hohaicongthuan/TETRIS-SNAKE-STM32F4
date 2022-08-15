@@ -7,22 +7,11 @@ This is a small group project that I had in the *Embedded System Design* class. 
 :------------------------:|:----------------------:
 *(TETRIS)* | *(SNAKE)*
 
-<!--  This is a comment.
-      These tags will display images side-by-side.
-      But they're not in used.
--->
-<!--
-<p float="left">
-  <img src="tetris.jpg" width="100" />
-  <img src="snake.jpg" width="100" /> 
-</p>
--->
-
 **Read carefully** the instructions below if you want to play the games on the board.
 
 ## HOW TO USE IT?
 
-* First, you need to copy all the directories in this repository to your project's root folder (I used STM32CubeIDE 1.3.0, but you can use whatever IDE you prefer).
+* First, you need to copy all the directories in this repository to your project's root folder (I used STM32CubeIDE 1.3.0).
 
 * You might want to configure your IDE to include the ```Drivers/BSP``` directory.
 
@@ -39,4 +28,4 @@ Connect the button with the pull-down resistor configuration (I don't know how t
 ![terrible wiring, I know](buttons_wiring.jpg)
 *(terrible wiring, I know)*
 
-Then connect the UP, DOWN, LEFT, RIGHT buttons to the PB12, PB13, PC8, PC9 pins of the board, respectively and you'll good to go.
+Then connect the UP, DOWN, LEFT, RIGHT buttons to the PB12, PB13, PC8, PC9 pins of the board, respectively and you're good to go.
